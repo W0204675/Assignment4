@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Movie Trailers</string>
+    <string name="description">Movie Description</string>
+    <string name="play">Play Trailer</string>
+    <string name="ratingTv">Rating:</string>
+    <string name="updateRating">Update Rating</string>
+    <string name="title">title</string>
+    <string name="addTrailerBtn">add</string>
+</resources>

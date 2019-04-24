@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="407dp"
+        android:layout_height="696dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:clickable="true"
+        android:columnWidth="400dp"
+        android:drawSelectorOnTop="true"
+        android:fadingEdge="vertical"
+        android:focusable="true"
+        android:gravity="center"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:textColor="@color/my_color"
+        android:verticalSpacing="10dp" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:layout_marginTop="600dp"
+        android:soundEffectsEnabled="true">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/addTrailerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:clickable="true"
+            android:scaleType="center"
+            app:backgroundTint="@color/colorPrimary"
+            app:fabCustomSize="65dp"
+            app:fabSize="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:rippleColor="@android:color/background_light"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</RelativeLayout>
